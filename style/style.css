@@ -5,30 +5,12 @@
 }
 
 body {
-    background-image: linear-gradient(45deg, #fcc204d7, #fca104cf, #fcc204b6, #fd4c00c8, #fcc20492);
-    background-size: 400% 300%;
+    background-image: linear-gradient(45deg, #fcc204d7, #fca104cf,);
     background-attachment: fixed;
     font-family: monospace;
-    font-size: 14px;
-    animation: colors 30s ease infinite;
+    font-size: 14px;  
 }
 
-@keyframes colors {
-    0%{
-        background-position:0% 50%;
-    }
-
-    50%{
-        background-position:100% 50%;
-
-    }
-
-    100%{
-        background-position:0% 50%;
-
-    }
-
-}
 main {
     background-color: white;
     border-radius: 10px;
